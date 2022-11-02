@@ -1,0 +1,54 @@
+.box .img-list {
+    padding: 5px;
+    margin: 0;
+    display: flex;
+}
+
+.box .img-list li img {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    outline: 3px solid #fff;
+}
+
+.box .img-list li {
+    padding-bottom: 20px;
+}
+
+.box .img-list li img:not(.first-img) {
+    margin-left: -12px;
+}
+
+.box span {
+    padding: 5px 10px;
+    background-color: #ddd;
+    border-radius: 5px;
+    font-size: 13px;
+    display: inline-block;
+}
+
+.box {
+    z-index: -2;
+}
+
+.bar {
+    justify-content: space-between;
+}
+
+.bar .prog-bar-1 {
+    position: relative;
+    width: 80px;
+    height: 10px;
+    background-color: #0f5132;
+    border-radius: 20px;
+    z-index: 1;
+}
+
+.bar .prog-bar-1::before {
+    content: "";
+    position: absolute;
+    width: 120px;
+    height: 10px;
+    background-color: #0f51329c;
+    border-radius: 20px;
+}

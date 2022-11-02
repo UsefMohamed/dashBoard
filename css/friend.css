@@ -1,0 +1,18 @@
+.box .phone-icon,
+.box .mail-icon {
+    width: 35px;
+    padding: 5px;
+    font-size: 19px;
+    background-color: #eee;
+    border-radius: 50%;
+    height: 35px;;
+    justify-content: center;
+}
+.box .friend-icon-details {
+    font-size: 19px;
+}
+.box .img-holder img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}

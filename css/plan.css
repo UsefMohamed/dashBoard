@@ -1,0 +1,52 @@
+.wrraper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(258px, 1fr));
+}
+
+.box-plan .heading {
+    padding: 10px 15px;
+    background-color: #25b170;
+    outline: 2px solid #25b170;
+    border: 2px solid #fff;
+    color: white;
+}
+
+.box-plan a {
+    color: black;
+    margin-bottom: 15px;
+    padding: 1px
+}
+
+.box-plan a>i {
+    font-size: 20px;
+}
+
+.box-plan a>i.open {
+    color: #28bf79;
+}
+
+.box-plan a>i.close {
+    color: #ff0018;
+}
+
+.box-plan a p {
+    font-size: 15px;
+}
+
+.box-plan button {
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: #212529;
+    color: white;
+}
+.box-plan .basic {
+    background-color: #3594ca;
+    outline: 2px solid #3594ca;
+    border: 2px solid #fff;
+}
+.box-plan .premium {
+    background-color: #f5b11e;
+    outline: 2px solid #f5b11e;
+    border: 2px solid #fff;
+}

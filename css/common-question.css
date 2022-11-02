@@ -1,0 +1,21 @@
+.question-section {
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+}
+.box .question-section,
+.box .question-body {
+    text-align: center;
+}
+
+.box .question-body {
+    background-color: #eee;
+    padding: 10px;
+    border-radius: 10px;
+    display: none;
+}
+.show {
+    display: block !important;
+}
